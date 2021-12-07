@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Homeroom",
-        "image": "./assets/images/student.jpg",
+        "image":  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thoughtco.com%2Felementary-teacher-qualifications-2081505&psig=AOvVaw1P7SEp1rB048rgoAEOOMHS&ust=1638933720219000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCA-4Xe0PQCFQAAAAAdAAAAABAD",
         "alt": "student raising their hand",
         "deployed": "https://homeroomportal.herokuapp.com/",
         "github": "https://github.com/michellewehr/homeroom",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "MovieFoodie",
-        "image": "./assets/images/movie.jpg",
+        "image": "https://unsplash.com/photos/q8P8YoR6erg",
         "alt": "an empty movie theater",
         "deployed": "https://michellewehr.github.io/MovieFoodie/",
         "github": "https://github.com/michellewehr/MovieFoodie",

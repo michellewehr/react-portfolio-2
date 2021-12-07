@@ -15,7 +15,7 @@ function NavBar(props) {
     <nav>
     <ul className="nav nav-tabs row">
       {tabs.map(tab => (
-        <li className="nav-item col" key={tab}>
+        <li className="nav-item navItem col" key= {tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}
