@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeDoc from '../../assets/images/Dec1Resume.pdf';
+import resumeDoc from '../../assets/images/ResumeDec7.pdf';
 
 function Resume() {
     return(
