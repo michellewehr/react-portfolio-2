@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Homeroom",
+        "image": "./assets/images/student.jpg",
+        "alt": "student raising their hand",
+        "deployed": "https://homeroomportal.herokuapp.com/",
+        "github": "https://github.com/michellewehr/homeroom",
+         "tech": "MySQL, Sequelize, Node.js, Express.js, JavaScript, Bootstrap, Animation.css",
+         "description": "An application for teachers to store and create lesson plans, manage grade books, and manage class rosters."
+    },
+    {
+        "id": 2,
+        "name": "MovieFoodie",
+        "image": "./assets/images/movie.jpg",
+        "alt": "an empty movie theater",
+        "deployed": "https://michellewehr.github.io/MovieFoodie/",
+        "github": "https://github.com/michellewehr/MovieFoodie",
+         "tech": "HTML, CSS, Bulma, JavaScript, AJAX",
+         "description": "An application allowing users to view search movies by name, category, and date released. Upon searching a movie, users can view streaming and rental options. Users can save favorite movies to their watch list and browse snacks by ingredient to enjoy while watching their movies."
+    },
+    {
+        "id": 3,
+        "name": "Employee Manager",
+        "image": "./assets/images/employee.png",
+        "alt": "Screenshot of application",
+        "deployed": "https://watch.screencastify.com/v/j4P13wrOCDF2ZOEPYKQI",
+        "github": "https://github.com/michellewehr/company-employee-tracker",
+         "tech": "Node.js, SQL",
+         "description": "A back-end project allowing users to manage an employee database using SQL database."
+    },
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "image": "./assets/images/budget.jpg",
+        "alt": "Calculator for budgeting",
+        "deployed": "http://budget-tracker-proj.herokuapp.com/",
+        "github": "https://github.com/michellewehr/Budget-Tracker",
+         "tech": "Node.js, MongoDB, Express.js, IndexedDb",
+         "description": "A PWA(progressive web application) that serves as a budget tracking applications for users who would like to track their withdrawals and deposits with or without internet."
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "image": "./assets/images/notes.png",
+        "alt": "Screenshot of Note Taker application",
+        "deployed": "https://safe-beach-19758.herokuapp.com/",
+        "github": "https://github.com/michellewehr/note-taker",
+         "tech": "Node.js, Express.js, JavaScript, HTML, CSS",
+         "description": "An application where users can make notes on any subject they wish. Notes can be saved, added, and deleted."
+    },
+    {
+        "id": 6,
+        "name": "Work Day Planner",
+        "image": "./assets/images/workDay.png",
+        "alt": "Screenshot of Work Day application",
+        "deployed": "https://michellewehr.github.io/calendar-app/",
+        "github": "https://github.com/michellewehr/calendar-app",
+         "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js",
+         "description": "An application where users can schedule their work days in hourly time slots. Hours that have past will show in grey, current hour will be coded red, and future hour blocks will be green."
+    }
+]
