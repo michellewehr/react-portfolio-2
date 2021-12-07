@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar(props) {
 
-  const tabs = ['About', 'Porfolio', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
     <header className="flex-row px-1">
     <a href="/">
