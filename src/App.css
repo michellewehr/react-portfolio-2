@@ -241,6 +241,17 @@ textarea {
   .navItem a {
     font-size: 1rem;
   }
+  .contact-section {
+    margin: 0rem;
+    text-align: center;
+    margin-bottom: 9rem;
+  }
+  input,
+  textarea {
+    min-width: 20rem;
+    display: inline-block;
+    border-radius: 10px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
