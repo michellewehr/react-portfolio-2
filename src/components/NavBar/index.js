@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/images/blackIcon.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css';
+
 
 
 

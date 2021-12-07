@@ -18,7 +18,7 @@ function Resume() {
                     <li>jQuery</li>
                     <li>Bootstrap</li>
                     <li>Bulma</li>
-                    <li>Animation.css</li>
+                    <li>Animate.css</li>
                     <li>Handlebars.js</li>
                 </ul>
             </div>

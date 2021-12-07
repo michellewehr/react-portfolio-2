@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProjectCard(props) {
     return (
-        <div className="project col-5 mx-auto ">
+        <div className="project col-lg-5 mx-auto ">
             <div className="img-container">
                 <a href={props.deployed}><img alt={props.alt} src={props.image}/></a>
             </div>

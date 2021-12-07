@@ -1,14 +1,16 @@
 import React from 'react';
 import profilePic from '../../assets/images/NHproPic.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css';
+
 
 function About() {
     return (
-        <div className="aboutBackground row">
-            <div className="col-lg">
-                <img className="profilePic" src={profilePic} alt="Michelle"></img>
+        <div className="aboutBackground container row">
+            <div className="col">
+                <img className="profilePic animate__animated animate__fadeInLeft " src={profilePic} alt="Michelle"></img>
             </div>
-            <div className="nameBlock col-lg">
+            <div className="nameBlock col animate__animated animate__rotateInDownLeft">
                 <h2 className="cursive">Hello! I am...</h2>
                 <h1 className="name lato">MICHELLE NAPOLITANO WEHR</h1>
                 <h2 className="jobTitle"> Full Stack Developer</h2>
