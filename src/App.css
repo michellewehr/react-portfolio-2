@@ -107,8 +107,9 @@ li a {
   color: inherit;
 }
 
-.navItem a {
+Nav.Link {
   color: black;
+  font-size: 2rem;
 }
 
 .navItem a:hover {
