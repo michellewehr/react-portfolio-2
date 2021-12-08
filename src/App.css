@@ -286,4 +286,7 @@ textarea {
     width: 300px;
     padding-bottom: 0rem;
   }
+  .nameBlock {
+    margin-left: 0rem;
+  }
 }
