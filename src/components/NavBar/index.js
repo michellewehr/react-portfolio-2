@@ -10,7 +10,7 @@ function NavBar(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
     <header className="flex-row px-1">
-    <a href="/">
+    <a href="https://michellewehr.github.io/react-portfolio-2/#about">
         <img className="logo" src={Logo} alt="Michelle's logo"></img>
     </a>
     <nav>
