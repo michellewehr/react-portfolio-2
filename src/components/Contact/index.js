@@ -12,6 +12,7 @@ const Contact = () => {
 
     emailjs.sendForm('Contact Form', 'template_pa3ttyq', e.target, 'user_LTR4y63OjrRMGVR07Eg0z')
       .then((result) => {
+        window.alert('Message sent to Michelle!');
         document.querySelector("#contact-form").reset();
           console.log(result.text);
       }, (error) => {
