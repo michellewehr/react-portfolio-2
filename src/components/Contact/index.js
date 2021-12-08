@@ -1,69 +1,45 @@
-import React, {useState} from 'react';
-import { validateEmail } from '../../utils/helpers';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_LTR4y63OjrRMGVR07Eg0z");
 
+const Contact = () => {
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    emailjs.sendForm('Contact Form', 'template_pa3ttyq', e.target, 'user_LTR4y63OjrRMGVR07Eg0z')
+      .then((result) => {
+        document.querySelector("#contact-form").reset();
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
-    const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!errorMessage) {
-          console.log('Submit Form', formState);
-        }
-      };
-
-      const handleChange = (e) => {
-        if (e.target.name === 'email') {
-          const isValid = validateEmail(e.target.value);
-          if (!isValid) {
-            setErrorMessage('Your email is invalid.');
-          } else {
-            setErrorMessage('');
-          }
-        } else {
-          if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required.`);
-          } else {
-            setErrorMessage('');
-          }
-        }
-        if (!errorMessage) {
-          setFormState({ ...formState, [e.target.name]: e.target.value });
-          console.log('Handle Form', formState);
-        }
-      };
-
-
-    return (
-        <div className="contact-section container-fluid">
-            <h2>Contact Me</h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label className="row">Name:</label>
-                    <input className="row" type="text" name="name" defaultValue={name}></input>
-                </div>
-                <div>
-                    <label className="row">Email:</label>
-                    <input className="row" type="text" name="email" defaultValue={email}></input>
-                </div>
-                <div>
-                    <label className="row">Message:</label>
-                    <textarea className="row" type="text" name="message" rows="5" defaultValue={message}></textarea>
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button type="submit" className="formBtn">Submit</button>
-            </form>
+  return (
+    <div className="contact-section container-fluid">
+    <h2>Contact Me</h2>
+    <form id="contact-form" onSubmit={sendEmail}>
+        <div>
+            <label className="row">Name:</label>
+            <input className="row" type="text" name="name"></input>
         </div>
-    )
-}
+        <div>
+            <label className="row">Email:</label>
+            <input className="row" type="email" name="email" ></input>
+        </div>
+        <div>
+            <label className="row">Message:</label>
+            <textarea className="row" type="text" name="message" rows="5"></textarea>
+        </div>
+        <button type="submit" className="formBtn">Submit</button>
+    </form>
+    </div>
+  );
+};
 
 export default Contact;
+
