@@ -35,7 +35,7 @@ function Portfolio() {
             "deployed": "https://watch.screencastify.com/v/j4P13wrOCDF2ZOEPYKQI",
             "github": "https://github.com/michellewehr/company-employee-tracker",
              "tech": "Node.js, SQL",
-             "description": "A back-end project allowing users to manage an employee database using SQL database."
+             "description": "A back-end project allowing users to manage an employee database using MySQL database."
         },
         {
             "id": 4,
