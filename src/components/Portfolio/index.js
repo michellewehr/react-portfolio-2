@@ -15,7 +15,7 @@ function Portfolio() {
             "deployed": "https://homeroomportal.herokuapp.com/",
             "github": "https://github.com/michellewehr/homeroom",
              "tech": "MySQL, Sequelize, Node.js, Express.js, JavaScript, Bootstrap, Animation.css",
-             "description": "An application for teachers to store and create lesson plans, manage grade books, and manage class rosters."
+             "description": "An application for teachers to store and create lesson plans, manage grade books, and manage class rosters using MySQL database."
         },
         {
             "id": 2,
