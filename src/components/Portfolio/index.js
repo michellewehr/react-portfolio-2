@@ -7,8 +7,18 @@ import Wrapper from '../Wrapper';
 
 function Portfolio() {
     const projectsList = [
-        {
+                {
             "id": 1,
+            "name": "Kindly",
+            "image": "https://citydadsgroup.com/wp-content/uploads/2018/10/volunteer-work.jpg",
+            "alt": "Screenshot of Kindly application",
+            "deployed": "https://kindly-volunteer.herokuapp.com/",
+            "github": "https://github.com/brentocracy/kindly/",
+             "tech": "MERN stack",
+             "description": "An application where users can participate in do-good opportunities, showcase their volunteer work on their user profile, and add earn kindly points for their good work."
+        },
+        {
+            "id": 2,
             "name": "Homeroom",
             "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F56931f0f-f2c6-4da7-bedb-792b921cb2e7.jpg?fit=scale-down&source=next&width=700",
             "alt": "student raising their hand",
@@ -17,8 +27,9 @@ function Portfolio() {
              "tech": "MySQL, Sequelize, Node.js, Express.js, JavaScript, Bootstrap, Animation.css",
              "description": "An application for teachers to store and create lesson plans, manage grade books, and manage class rosters using MySQL database."
         },
+ 
         {
-            "id": 2,
+            "id": 3,
             "name": "MovieFoodie",
             "image": "https://media.wired.com/photos/5e97905fa8fb770008c8478d/master/pass/Cul-movietheater-1191021389.jpg",
             "alt": "an empty movie theater",
@@ -28,7 +39,7 @@ function Portfolio() {
              "description": "An application allowing users to view search movies by name, category, and date released. Upon searching a movie, users can view streaming and rental options. Users can save favorite movies to their watch list and browse snacks by ingredient to enjoy while watching their movies."
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Employee Manager",
             "image": "https://cdn.corporatefinanceinstitute.com/assets/affiliated-companies-1024x614.jpeg",
             "alt": "Towering buildings to represent companies",
@@ -38,7 +49,7 @@ function Portfolio() {
              "description": "A back-end project allowing users to manage an employee database using MySQL database."
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Budget Tracker",
             "image": "https://thecurrent.pk/wp-content/uploads/2021/06/9zz.jpg",
             "alt": "Budgeting tools",
@@ -47,16 +58,7 @@ function Portfolio() {
              "tech": "Node.js, MongoDB, Express.js, IndexedDb",
              "description": "A PWA(progressive web application) that serves as a budget tracking applications for users who would like to track their withdrawals and deposits with or without internet."
         },
-        {
-            "id": 5,
-            "name": "Note Taker",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDvbskosgJStR5BhDSUN9jjbVoXjs4vIduA&usqp=CAU",
-            "alt": "Screenshot of Note Taker application",
-            "deployed": "https://safe-beach-19758.herokuapp.com/",
-            "github": "https://github.com/michellewehr/note-taker",
-             "tech": "Node.js, Express.js, JavaScript, HTML, CSS",
-             "description": "An application where users can make notes on any subject they wish. Notes can be saved, added, and deleted."
-        },
+       
         {
             "id": 6,
             "name": "Work Day Planner",
