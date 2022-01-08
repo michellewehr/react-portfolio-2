@@ -11,7 +11,7 @@ function Portfolio() {
       image:
         "https://citydadsgroup.com/wp-content/uploads/2018/10/volunteer-work.jpg",
       alt: "Screenshot of Kindly application",
-      deployed: "https://kindly-volunteer.herokuapp.com/",
+      deployed: "https://kindly-do-good.herokuapp.com/",
       github: "https://github.com/brentocracy/kindly/",
       tech: "MERN stack",
       description:
